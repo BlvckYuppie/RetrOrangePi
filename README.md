@@ -2,17 +2,17 @@
 
 As expected by the vast majority of users, ROPi 3.0.1 to 4.0 update will work by script, without the need of reflashing your sdcard all over again. We hope this version to be more user-friendly and easily upgradable. 
 
-Update instructions :
+## Update instructions :
  
-Quit to terminal (from EmulationStation start menu or simply by pressing F4).
-Download the updater: wget http://www.retrorangepi.org/ropi4.sh
-Give it execute permission: sudo chmod +x ropi4.sh
-Run it: sudo -u pi ./ropi4.sh
+- Quit to terminal (from EmulationStation start menu or simply by pressing F4).
+- Download the updater: wget http://www.retrorangepi.org/ropi4.sh
+- Give it execute permission: sudo chmod +x ropi4.sh
+- Run it: sudo -u pi ./ropi4.sh
  
-NOTES:
-Make sure you have 1GB of free space, before running the update. Script will remove update files after completion , so don’t worry.
-It’s possible to update from SSH. Please log with user pi , not root (ever) 
-If all goes well, you should get a confirmation at the end asking you to reboot your board.
+## NOTES:
+- Make sure you have 1GB of free space, before running the update. Script will remove update files after completion , so don’t worry.
+- It’s possible to update from SSH. Please log with user pi , not root (ever) 
+- If all goes well, you should get a confirmation at the end asking you to reboot your board.
 
 ## this RetrOrangePi repository features
 - An EmulationStation RetroPie platform submenu
